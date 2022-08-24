@@ -1,0 +1,21 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "copywriter_freelancer"
+  author: "Jane Doe"
+  date: "8/24/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
